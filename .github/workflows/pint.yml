@@ -9,3 +9,4 @@ jobs:
           uses: aglipanci/laravel-pint-action@main
           with:
             testMode: true
+            verboseMode: true
