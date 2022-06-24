@@ -9,5 +9,8 @@ use Illuminate\Routing\Controller as BaseController;
 
 class Controller extends BaseController
 {
+    
+    CONST ROUTE_URL = '/';
+     
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 }
