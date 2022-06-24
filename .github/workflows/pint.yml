@@ -1,8 +1,8 @@
 name: Laravel Pint
 on: pull_request
- jobs:
-   pint:
-     runs-on: ubuntu-latest
-     steps:
-         - uses: actions/checkout@v1
-         - uses: aglipanci/laravel-pint@main
+jobs:
+  pint:
+    runs-on: ubuntu-latest
+    steps:
+        - uses: actions/checkout@v1
+        - uses: aglipanci/laravel-pint@main
