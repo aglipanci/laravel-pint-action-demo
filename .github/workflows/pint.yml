@@ -6,6 +6,7 @@ jobs:
     steps:
         - uses: actions/checkout@v1
         - name: "laravel-pint"
-          uses: aglipanci/laravel-pint-action@main
+          uses: aglipanci/laravel-pint-action@v0.1.0
           with:
             testMode: true
+            preset: laravel
