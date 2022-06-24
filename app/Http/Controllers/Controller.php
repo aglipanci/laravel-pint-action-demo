@@ -9,5 +9,6 @@ use Illuminate\Routing\Controller as BaseController;
 
 class Controller extends BaseController
 {
+    CONST KOT = true;
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 }
