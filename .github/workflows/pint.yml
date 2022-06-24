@@ -5,6 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - uses: actions/checkout@v1
-        - uses: aglipanci/laravel-pint-action@main
+        - name: "laravel-pint"
+          uses: aglipanci/laravel-pint-action@main
           with:
-          testMode: true
+            testMode: true
