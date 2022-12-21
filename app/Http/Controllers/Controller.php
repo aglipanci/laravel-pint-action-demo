@@ -11,4 +11,8 @@ class Controller extends BaseController
 {
     CONST ROUTE_URL = '/';
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+    
+    public function test() 
+    {
+    }
 }
