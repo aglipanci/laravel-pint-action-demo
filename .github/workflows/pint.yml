@@ -10,3 +10,7 @@ jobs:
           with:
             preset: laravel
             verboseMode: true
+            docker_build_args: |
+              PINT_VERSION
+          env:
+            PINT_VERSION: "1.3.0"
