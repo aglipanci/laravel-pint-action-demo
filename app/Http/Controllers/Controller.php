@@ -13,4 +13,11 @@ class Controller extends BaseController
     
     
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+    
+    public function testMethod()
+    {
+        $var = null;
+        
+        return false;
+    }
 }
