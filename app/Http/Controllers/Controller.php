@@ -18,6 +18,8 @@ class Controller extends BaseController
     {
         $var = null;
         
+        $foo = true;
+        
         return false;
     }
 }
