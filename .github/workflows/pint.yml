@@ -11,3 +11,4 @@ jobs:
             preset: laravel
             verboseMode: true
             pintVersion: 1.2.1
+            onlyDirty: true
