@@ -9,4 +9,3 @@ jobs:
           uses: aglipanci/laravel-pint-action@2.2.0
           with:
             verboseMode: true
-            configPath: "./pints.json"
