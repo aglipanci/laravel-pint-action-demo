@@ -8,8 +8,10 @@ jobs:
           uses: actions/checkout@v4
           with:
             fetch-depth: 0
+        - name: Show diff with master
+          run: git diff origin/main
         - name: "laravel-pint"
           uses: aglipanci/laravel-pint-action@2.5
           with:
             verboseMode: true
-            onlyDiff: "main"
+            onlyDiff: "origin/main"
