@@ -9,3 +9,4 @@ jobs:
           uses: aglipanci/laravel-pint-action@latest
           with:
             verboseMode: true
+            onlyDiff: "main"
