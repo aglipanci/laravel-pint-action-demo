@@ -9,7 +9,7 @@ jobs:
           with:
             fetch-depth: 0
         - name: Show diff with master
-          run: git diff origin/main
+          run: git diff --name-only --diff-filter=AM main...HEAD
         - name: "laravel-pint"
           uses: aglipanci/laravel-pint-action@2.5
           with:
