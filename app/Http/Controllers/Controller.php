@@ -13,4 +13,6 @@ class Controller extends BaseController
 
     public function test() {
     }
+
+    public function test1() {}
 }
