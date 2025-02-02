@@ -11,7 +11,7 @@ jobs:
         - name: Fetch main branch
           run: git fetch origin main
         - name: Show diff with main
-          run: git diff --name-only --diff-filter=AM main...HEAD
+          run: git diff --name-only --diff-filter=AM origin/main...HEAD
         - name: "laravel-pint"
           uses: aglipanci/laravel-pint-action@2.5
           with:
