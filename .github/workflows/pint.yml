@@ -9,4 +9,4 @@ jobs:
           uses: aglipanci/laravel-pint-action@2.5
           with:
             verboseMode: true
-            onlyDiff: "main"
+            onlyDiff: "master"
