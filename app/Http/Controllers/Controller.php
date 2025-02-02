@@ -14,6 +14,7 @@ class Controller extends BaseController
     public function test() {
     }
 
+    // test
     public function test1() {}
 
     public static function obs() {
