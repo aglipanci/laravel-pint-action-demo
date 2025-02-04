@@ -9,8 +9,11 @@ use Illuminate\Routing\Controller as BaseController;
 
 class Controller extends BaseController
 {
-    use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+    use AuthorizesRequests, DispatchesJobs, ValidatesRequests;    
 
-    public function test() {
+    // test
+    public function test1() {}
+
+    public static function obs() {
     }
 }
